@@ -1,13 +1,13 @@
 body {
-  width: 1000%;
+  width: 100%;
   height: 100%;
   margin: 0;
 }
-head {
+header {
   text-align: center;
 }
 
-image {
+figure {
   text-align: center;
 }
 
@@ -23,11 +23,15 @@ figcaption {
   text-align: center;
 }
 
-#featuredproperty {
+#featured-property p {
   text-align: center;
   max-width: 800px;
+  margin: 20px auto;
 }
 
-div {
+#details div {
   float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
